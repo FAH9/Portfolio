@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+  <title>Frank Holdbrook</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./index.css" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Montserrat"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Montserrat", sans-serif;
+    }
+    .portfolio-row-padding img {
+      margin-bottom: 12px;
+    }
+    .portfolio-sidebar {
+      width: 120px;
+      background: #222;
+    }
+    #main {
+      margin-left: 120px;
+    }
+    @media only screen and (max-width: 600px) {
+      #main {
+        margin-left: 0;
+      }
+    }
+  </style>
+  <body class="portfolio-black">
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav
+      class="portfolio-sidebar portfolio-bar-block portfolio-small portfolio-hide-small portfolio-center"
+    >
+      <!-- Avatar image in top left corner -->
+      <img src="portfolio_frank_mini.jpg" style="width: 100%" />
+      <a
+        href="#"
+        class="portfolio-bar-item portfolio-button portfolio-padding-large portfolio-black"
+      >
+        <i class="fa fa-home portfolio-xxlarge"></i>
+        <p>HOME</p>
+      </a>
+      <a
+        href="#about"
+        class="portfolio-bar-item portfolio-button portfolio-padding-large portfolio-hover-black"
+      >
+        <i class="fa fa-user portfolio-xxlarge"></i>
+        <p>ABOUT</p>
+      </a>
+      <a
+        href="#contact"
+        class="portfolio-bar-item portfolio-button portfolio-padding-large portfolio-hover-black"
+      >
+        <i class="fa fa-envelope portfolio-xxlarge"></i>
+        <p>CONTACT</p>
+      </a>
+    </nav>
+
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div
+      class="portfolio-top portfolio-hide-large portfolio-hide-medium"
+      id="myNavbar"
+    >
+      <div
+        class="portfolio-bar portfolio-black portfolio-opacity portfolio-hover-opacity-off portfolio-center portfolio-small"
+      >
+        <a
+          href="#"
+          class="portfolio-bar-item portfolio-button"
+          style="width: 25% !important"
+          >HOME</a
+        >
+        <a
+          href="#about"
+          class="portfolio-bar-item portfolio-button"
+          style="width: 25% !important"
+          >ABOUT</a
+        >
+        <a
+          href="#photos"
+          class="portfolio-bar-item portfolio-button"
+          style="width: 25% !important"
+          >PHOTOS</a
+        >
+        <a
+          href="#contact"
+          class="portfolio-bar-item portfolio-button"
+          style="width: 25% !important"
+          >CONTACT</a
+        >
+      </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="portfolio-padding-large" id="main">
+      <!-- Header/Home -->
+      <header
+        class="portfolio-container portfolio-padding-32 portfolio-center portfolio-black"
+        id="home"
+      >
+        <h1 class="portfolio-jumbo">
+          <span class="portfolio-hide-small">I'm</span> Frank Holdbrook
+        </h1>
+        <p>Account Manager & Web Developer.</p>
+        <img
+          src="portfolio_frank.jpg"
+          alt="boy"
+          class="portfolio-image"
+          width="592"
+          height="1108"
+        />
+      </header>
+
+      <!-- About Section -->
+      <div
+        class="portfolio-content portfolio-justify portfolio-text-grey portfolio-padding-64"
+        id="about"
+      >
+        <h2 class="portfolio-text-light-grey">About</h2>
+        <hr style="width: 200px" class="portfolio-opacity" />
+        <p>
+          Hello! I’m an aspiring web developer passionate about building modern,
+          responsive websites. Though I’m new to the field, I’ve been actively
+          learning and applying my skills in HTML, CSS, and JavaScript to create
+          functional and visually appealing projects. My portfolio showcases
+          small projects that demonstrate my ability to design, code, and
+          troubleshoot. I am eager to continue growing my skills, learning new
+          technologies like React and Node.js, and contributing to exciting web
+          development projects. I thrive on problem-solving, creativity, and the
+          opportunity to bring ideas to life through code.
+        </p>
+        <h3 class="portfolio-padding-16 portfolio-text-light-grey">
+          My Skills
+        </h3>
+        <p class="portfolio-wide">HTML</p>
+        <div class="portfolio-white">
+          <div
+            class="portfolio-dark-grey"
+            style="height: 28px; width: 95%"
+          ></div>
+        </div>
+        <p class="portfolio-wide">CSS</p>
+        <div class="portfolio-white">
+          <div
+            class="portfolio-dark-grey"
+            style="height: 28px; width: 85%"
+          ></div>
+        </div>
+        <p class="portfolio-wide">Javascript</p>
+        <div class="portfolio-white">
+          <div
+            class="portfolio-dark-grey"
+            style="height: 28px; width: 60%"
+          ></div>
+        </div>
+        <br />
+
+        <div
+          class="portfolio-row portfolio-center portfolio-padding-16 portfolio-section portfolio-light-grey"
+        >
+          <div class="portfolio-quarter portfolio-section">
+            <span class="portfolio-xlarge">3</span><br />
+            Partners
+          </div>
+          <div class="portfolio-quarter portfolio-section">
+            <span class="portfolio-xlarge">1</span><br />
+            Project Done
+          </div>
+          <div class="portfolio-quarter portfolio-section">
+            <span class="portfolio-xlarge">2</span><br />
+            Happy Clients
+          </div>
+          <div class="portfolio-quarter portfolio-section">
+            <span class="portfolio-xlarge">15+</span><br />
+            Meetings
+          </div>
+        </div>
+
+        <button
+          class="portfolio-button portfolio-light-grey portfolio-padding-large portfolio-section"
+        >
+          <i class="fa fa-download"></i>
+          <a
+            href="https://drive.google.com/file/d/1xYLEFPrqAteyq6kIleGyv2gS2LUMMqAD/view"
+            target="_blank"
+            >Download Resume</a
+          >
+        </button>
+
+        <!-- Grid for pricing tables -->
+        <h3 class="portfolio-padding-16 portfolio-text-light-grey">My Price</h3>
+        <div class="portfolio-row-padding" style="margin: 0 -16px">
+          <div class="portfolio-half portfolio-margin-bottom">
+            <ul
+              class="portfolio-ul portfolio-white portfolio-center portfolio-opacity portfolio-hover-opacity-off"
+            >
+              <li
+                class="portfolio-dark-grey portfolio-xlarge portfolio-padding-32"
+              >
+                Website Design
+              </li>
+              <li class="portfolio-padding-16">Web Design</li>
+              <li class="portfolio-padding-16">Web Development</li>
+              <li class="portfolio-padding-16">UI & UX Design</li>
+              <li class="portfolio-light-grey portfolio-padding-24"></li>
+            </ul>
+          </div>
+
+          <div class="portfolio-half">
+            <ul
+              class="portfolio-ul portfolio-white portfolio-center portfolio-opacity portfolio-hover-opacity-off"
+            >
+              <li
+                class="portfolio-dark-grey portfolio-xlarge portfolio-padding-32"
+              >
+                Account Manager
+              </li>
+              <li class="portfolio-padding-16">
+                Marketing Research & Analysis
+              </li>
+              <li class="portfolio-padding-16">Salesforce Training</li>
+              <li class="portfolio-padding-16">Business Development</li>
+              <li class="portfolio-light-grey portfolio-padding-24"></li>
+            </ul>
+          </div>
+          <!-- End Grid/Pricing tables -->
+        </div>
+      </div>
+
+      <!-- Contact Section -->
+      <div
+        class="portfolio-padding-64 portfolio-content portfolio-text-grey"
+        id="contact"
+      >
+        <h2 class="portfolio-text-light-grey">Contact Me</h2>
+        <hr style="width: 200px" class="portfolio-opacity" />
+
+        <div class="portfolio-section">
+          <p>
+            <i
+              class="fa fa-map-marker fa-fw portfolio-text-white portfolio-xxlarge portfolio-margin-right"
+            ></i>
+            St. Johns Newfoundland
+          </p>
+          <p>
+            <i
+              class="fa fa-phone fa-fw portfolio-text-white portfolio-xxlarge portfolio-margin-right"
+            ></i>
+            Phone: +1 (709) 763-8949
+          </p>
+          <p>
+            <i
+              class="fa fa-envelope fa-fw portfolio-text-white portfolio-xxlarge portfolio-margin-right"
+            >
+            </i>
+            Email: Frank.holdbrook@keyin.com
+          </p>
+        </div>
+        <br />
+        <!-- End Contact Section -->
+      </div>
+
+      <footer
+        class="portfolio-content portfolio-padding-64 portfolio-text-grey portfolio-xlarge"
+      >
+        <a
+          href="https://www.linkedin.com/in/frank-holdbrook-010770190"
+          target="_blank"
+        >
+          <i class="fa fa-linkedin portfolio-hover-opacity"></i
+        ></a>
+      </footer>
+    </div>
+  </body>
+</html>
